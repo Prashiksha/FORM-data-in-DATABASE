@@ -1,6 +1,6 @@
 <?php
 
-$connection = mysqli_connect("localhost", "prashiksha", "jainjain"); // Establishing Connection with Server
+$connection = mysqli_connect("localhost", "prashiksha", "password"); // Establishing Connection with Server
 $db = mysqli_select_db($connection, "colleges"); // Selecting Database from Server
 
 if(isset($_POST['submit'])){ // Fetching variables of the form which travels in URL
